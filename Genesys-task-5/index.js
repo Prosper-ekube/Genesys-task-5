@@ -17,7 +17,7 @@ function averageNumInArray(a) {
 }
 
 //Checks if a number, n is divisible by two numbers x and y
-function isDivisiblee(n, x, y) {
+function isDivisible(n, x, y) {
     if (n % x === 0 && n % y === 0) {  //console.log(isDivisible(30, 2, 5))
         return true;                   //output true
     } else {
